@@ -1,0 +1,1 @@
+nimecreate schema ya products .. to proceed from there

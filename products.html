@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Furniture Sales & Stock Management</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        .products-container {
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-card h3 {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .product-card p {
+            padding: 0 15px 15px;
+            font-size: 16px;
+            color: #555555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Furniture Sales & Stock Management</h1>
+    </header>
+    <nav>
+        <a href="./homepage.html">Home</a>
+        <a href="#">Products</a>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./login.html">Logout</a>
+    </nav>
+    <section class="products-container">
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Modern Sofa</h3>
+            <p>A stylish modern sofa with a sleek design and comfortable cushions.</p>
+        </div>
+        <div class="product-card">
+            <img src="./images/chair.jpg" alt="Product 2">
+            <h3>Classic Armchair</h3>
+            <p>An elegant armchair with a timeless design and premium upholstery.</p>
+        </div>
+        <div class="product-card">
+            <img src="./images/chair2.jpg" alt="Product 3">
+            <h3>Dining Table Set</h3>
+            <p>A spacious dining table set with six matching chairs, perfect for family meals.</p>
+        </div>
+        <div class="product-card">
+            <img src="./images/couch.jpg" alt="Product 4">
+            <h3>Office Desk</h3>
+            <p>A functional office desk with ample storage and a modern look.</p>
+        </div>
+        <div class="product-card">
+            <img src="./images/couch.jpg" alt="Product 5">
+            <h3>Bookshelf</h3>
+            <p>A sturdy bookshelf with a minimalist design to keep your books organized.</p>
+        </div>
+        <div class="product-card">
+            <img src="product6.jpg" alt="Product 6">
+            <h3>Bed Frame</h3>
+            <p>A durable bed frame with a contemporary design and solid construction.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Furniture Sales & Stock Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>
